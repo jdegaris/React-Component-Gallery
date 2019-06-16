@@ -1,0 +1,34 @@
+.fs-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92vh;
+    min-height: 92vh;
+    width: 100vw;
+    min-width: 100vw;
+}
+
+.slide-control {
+    position: absolute;
+    margin: 0 3rem;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+}
+
+.control-left {
+    left: 5rem;
+}
+.control-right {
+    right: 5rem;
+}
+
+.slide {
+    height: 92vh;
+    width: 100vw;
+}
+.slide img {
+    height: 92vh;
+    width: 100vw;
+    transition: all 1s ease;
+}

@@ -12,8 +12,9 @@
     background: var(--dark-color);
     letter-spacing: 2px;
     text-align: center;
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    margin-bottom: 1rem ;
 }
 
 .filter {
@@ -45,7 +46,7 @@ a {
     min-height: 300px;
     border: 2px solid black;
     border-radius: 15px;
-    margin: 1rem;
+    margin: .5rem;
     padding: .5rem .5rem 0 .5rem;
 }
 
@@ -54,7 +55,8 @@ a {
     transform-style: preserve-3d;
     transition: all 0.8s ease;
 }
-.component-screen:hover {
+.component-screen:hover,
+.component-screen:active {
     height: 80%;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
