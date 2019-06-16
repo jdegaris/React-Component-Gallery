@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 2rem;
+    font-family: 'Montserrat';
+    justify-content: center;
+}
+.title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.filter {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.filter button {
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 20px;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.component-item {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 500px;
+    width: 22vw;
+    min-width: 350px;
+    max-width: 500px;
+    min-height: 240px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: .5rem .5rem 0 .5rem;
+}
+
+.component-screen {
+    height: 80%;
+}
+
+.component-screen img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.component-description {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    background-color: #efefef;
+    padding: .5rem;
+    border-radius: 0 0 10px 10px;
+}
+
