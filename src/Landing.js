@@ -1,11 +1,8 @@
 import React, { Fragment } from 'react'
-import { Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Landing.css';
 import Project1 from './img/LandingArticleGalleryFlexbox.png'
 import Project2 from './img/NavbarLogoCenter.png'
-
-import Navbar from './navbar-components/Navbar-Logo-Center/NavbarLogoCenter'
-import LandingPage from './landing-components/Landing-Article-Gallery/LandingArticleGalleryFlexbox'
 
 
 const Landing = () => {

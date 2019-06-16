@@ -6,13 +6,13 @@ const NavbarLogoCenter = () => {
     return (
         <nav>
             <div className="logo">
-            <i class="fab fa-react"></i>
+            <Link to="#" ><i class="fab fa-react"></i></Link>
             </div>
             <div className="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Shop</li>
+                    <Link to="#" ><li>Home</li></Link>
+                    <Link to="#" ><li>About</li></Link>
+                    <Link to="#" ><li>Shop</li></Link>
                 </ul>
             </div>
             
