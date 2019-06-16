@@ -63,7 +63,16 @@ const LandingPageGallery = () => {
                 </article>
             </Link>
             </div>
+
+            <div className="break"></div>
+            
+            <div className="get-code">
+                <button>
+                    Get Code
+                </button>
+            </div>
         </div>
+        
     )
 }
 

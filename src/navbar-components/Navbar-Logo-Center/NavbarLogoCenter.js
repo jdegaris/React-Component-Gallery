@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import './NavbarLogoCenter.css';
 
 const NavbarLogoCenter = () => {
     return (
+        <Fragment>
         <nav>
             <div className="logo">
             <Link to="#" ><i class="fab fa-react"></i></Link>
@@ -15,8 +16,14 @@ const NavbarLogoCenter = () => {
                     <Link to="#" ><li>Shop</li></Link>
                 </ul>
             </div>
-            
         </nav>
+        <div className="get-code">
+            <button>
+                Get Code
+            </button>
+        </div>
+        
+        </Fragment>
     )
 }
     

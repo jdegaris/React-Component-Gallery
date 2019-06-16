@@ -7,8 +7,13 @@
     justify-content: center;
 }
 .title {
+    font-family: 'Alfa Slab One';
+    color: var(--primary-color);
+    background: var(--dark-color);
+    letter-spacing: 2px;
     text-align: center;
     font-size: 2rem;
+    margin: 1rem 0;
 }
 
 .filter {
@@ -37,7 +42,7 @@ a {
     width: 22vw;
     min-width: 350px;
     max-width: 500px;
-    min-height: 240px;
+    min-height: 300px;
     border: 2px solid black;
     border-radius: 15px;
     margin: 1rem;
@@ -46,12 +51,44 @@ a {
 
 .component-screen {
     height: 80%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+.component-screen:hover {
+    height: 80%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    transform: rotateY(180deg);
 }
 
-.component-screen img {
+.component-screen-front {
+    position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 10px 10px 0 0 ;
+    backface-visibility: hidden;
+}
+.component-screen-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.component-screen-back {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0 ;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.component-screen-back p {
+    display: flex;
+    background-color: #efefef;
+    height: 100%;
+    text-align: center;
+    padding: 1rem;
 }
 
 .component-description {

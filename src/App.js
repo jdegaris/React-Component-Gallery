@@ -1,7 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Landing from './Landing';
-import LandingPageGalleryFlexbox from './landing-components/Landing-Article-Gallery/LandingArticleGalleryFlexbox'
+import LandingArticleGalleryFlexbox from './landing-components/Landing-Article-Gallery/LandingArticleGalleryFlexbox'
+import ContentImageCarouselFS from './content-components/Image-Carousel-AutoGesture/ImageCarouselAutoGesture'
 import NavbarLogoCenter from './navbar-components/Navbar-Logo-Center/NavbarLogoCenter'
 
 
@@ -11,7 +12,8 @@ const App = () => {
   return <Router>
     <Switch>
       <Route exact path='/' component={Landing} />
-      <Route exact path='/LandingPageGalleryFlexbox' component={LandingPageGalleryFlexbox} />
+      <Route exact path='/LandingArticleGalleryFlexbox' component={LandingArticleGalleryFlexbox} />
+      <Route exact path='/ContentImageCarouselFS' component={ContentImageCarouselFS} />
       <Route exact path='/NavbarLogoCenter' component={NavbarLogoCenter} />
     </Switch>
     

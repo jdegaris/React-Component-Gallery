@@ -1,6 +1,53 @@
+:root {
+    --primary-color: #CBE86B;
+    --dark-color: #1C140D;
+    --light-color: #F2E9E1;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
+  }
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.get-code {
+    width: 100%;
+    text-align: center;
+}
+
+.get-code button {
+    width: 20vw;
+    min-width: 100px;
+    min-height: 3vh;
+    font-size: 1.2rem;
+}
+
+.btn {
+    outline: none;
+    border: none;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--dark-color);
+}
+.btn-light {
+    background: var(--light-color);
+    color: var(--dark-color);
+
+}
+.btn-dark {
+    background: var(--dark-color);
+    color: var(--primary-color);
+}
+.btn-success {
+    background: var(--success-color);
+    color: var(--light-color);
+}
+.btn-danger {
+    background: var(--danger-color);
+    color: var(--light-color);
+}
