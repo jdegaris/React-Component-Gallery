@@ -5,6 +5,8 @@ import { components } from './components';
 import image1 from './img/LandingArticleGalleryFlexbox.png'; 
 import image2 from './img/NavbarLogoCenter.png'; 
 import image3 from './img/ContentImageCarouselFS.png'; 
+import image4 from './img/LandingFullScreenGallery.png'; 
+import image5 from './img/LandingMessageOrder.png'; 
 
 
 const Landing = () => {
@@ -12,7 +14,9 @@ const Landing = () => {
     const images = [
         image1,
         image2,
-        image3
+        image3,
+        image4,
+        image5,
     ]
 
     components.map((component, index) => {

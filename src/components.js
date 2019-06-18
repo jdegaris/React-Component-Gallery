@@ -20,5 +20,19 @@ export const components = [
         type: 'content',
         description: 'Uses React-Carousel and React-Gestures. This is meant to be used as a modal or as a section of the body. It can be used as a hero image, but make sure there are no better options',
     },
+    {
+        name: 'Full Screen Landing Page Gallery',
+        image: './img/LandingFullScreenGallery.png',
+        link: '/LandingFullScreenGallery',
+        type: 'landing',
+        description: 'This is a full screen photo gallery meant for the landing page',
+    },
+    {
+        name: 'Message Order for Landing Page',
+        image: './img/LandingMessageOrder.png',
+        link: '/LandingMessageOrder',
+        type: 'landing',
+        description: 'This template displays the intended reading path of the user.',
+    },
     
 ]
