@@ -6,6 +6,7 @@ import LandingFullScreenGallery from './landing-components/Landing-Full-Screen-G
 import LandingMessageOrder from './landing-components/Landing-Message-Order/LandingMessageOrder'
 import ContentImageCarouselFS from './content-components/Image-Carousel-AutoGesture/ImageCarouselAutoGesture'
 import NavbarLogoCenter from './navbar-components/Navbar-Logo-Center/NavbarLogoCenter'
+import EmailLoginInputs from './form-components/EmailLoginInputs/EmailLoginInputs'
 
 import './App.css';
 
@@ -18,6 +19,8 @@ const App = () => {
       <Route exact path='/NavbarLogoCenter' component={NavbarLogoCenter} />
       <Route exact path='/LandingFullScreenGallery' component={LandingFullScreenGallery} />
       <Route exact path='/LandingMessageOrder' component={LandingMessageOrder} />
+      <Route exact path='/LandingMessageOrder' component={LandingMessageOrder} />
+      <Route exact path='/EmailLoginInputs' component={EmailLoginInputs} />
     </Switch>
     
 </Router>

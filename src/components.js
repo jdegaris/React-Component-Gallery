@@ -34,5 +34,12 @@ export const components = [
         type: 'landing',
         description: 'This template displays the intended reading path of the user.',
     },
+    {
+        name: 'Email Login Form',
+        image: './img/EmailLoginInputs.png',
+        link: '/EmailLoginInputs',
+        type: 'form',
+        description: 'A simple email login form with labels',
+    },
     
 ]

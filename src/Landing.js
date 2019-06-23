@@ -7,6 +7,7 @@ import image2 from './img/NavbarLogoCenter.png';
 import image3 from './img/ContentImageCarouselFS.png'; 
 import image4 from './img/LandingFullScreenGallery.png'; 
 import image5 from './img/LandingMessageOrder.png'; 
+import image6 from './img/EmailLoginInputs.png'; 
 
 
 const Landing = () => {
@@ -17,6 +18,7 @@ const Landing = () => {
         image3,
         image4,
         image5,
+        image6
     ]
 
     components.map((component, index) => {
